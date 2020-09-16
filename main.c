@@ -22,12 +22,9 @@ void print_n(const char *s, int n){
   if (n<1){
     //print nothing
   }
-  else if (n<=1){
-    printf("%s\n", s);
-  }
   else {
     printf("%s\n", s);
-    n = sum_n(n-1);
+    n = n-1;
   }
 }
 int main(void) {
