@@ -20,14 +20,14 @@ int sum_n(int n){
 
 void print_n(const char *s, int n){
   if (n<1){
-    printf(" ");
+    printf("");
   }
   else if (n<=1){
     printf("%s\n", s);
   }
   else {
     printf("%s\n", s);
-    n = print_n(s,n-1);
+    n = print_n(n-1);
   }
 }
 int main(void) {
