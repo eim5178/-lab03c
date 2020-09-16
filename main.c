@@ -27,7 +27,7 @@ void print_n(const char *s, int n){
   }
   else {
     printf("%s\n", s);
-    n = n-1;
+    n = sum_n(n-1);
   }
 }
 int main(void) {
