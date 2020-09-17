@@ -24,8 +24,9 @@ void print_n(const char *s, int n){
   }
   else {
     printf("%s\n", s);
-    n = n-1;
+    print_n(s,n);
   }
+
 }
 int main(void) {
   int n = atof(readline("Enter an int: "));
