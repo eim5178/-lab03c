@@ -20,7 +20,6 @@ int sum_n(int n){
 
 void print_n(const char *s, int n){
   if (n<1){
-    //print nothing
   }
   else {
     printf("%s\n", s);
